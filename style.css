@@ -9,11 +9,16 @@ h1 span {
 }
 body{
   font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+#hero {
+  width: 592px;
+  margin: auto;
 }
 span {
   color: #FF9900;
 }
 
-{
+p{
   color: #7D7987;
 }
