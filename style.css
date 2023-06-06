@@ -10,15 +10,40 @@ h1 span {
 body{
   font-family: 'Open Sans', sans-serif;
   text-align: center;
+  margin: 0px;
 }
 #hero {
   width: 592px;
-  margin: auto;
+  margin: 0 auto 72px;
 }
-span {
+span, a {
   color: #FF9900;
 }
 
-p{
+p, #footer{
   color: #7D7987;
+
+  font-size: 14px;
+  line-height: 28px;
+}
+
+#footer {
+  margin-botton: 33px;
+}
+
+#footer a + a{
+  margin-left: 28px;
+}
+.line {
+  width:568px;
+  height: 0px;
+  border: 1px solid #ECEFF2;
+  margin: 0 auto 8px;
+
+}
+
+#balls{
+  position: fixed;
+  botton: 0px;
+  right: 0px;
 }
